@@ -1,0 +1,58 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(105, 56, 0);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 80px;
+  justify-content: flex-start;
+  width: 20rem;
+  height: 29rem;
+  background-color: lightyellow;
+  overflow: hidden;
+}
+.img {
+  background-image: url(/assets/imgs/honey.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 65%;
+}
+.card h2 {
+  margin: 10% 0 0 0;
+}
+.card p {
+  margin: 0 4%;
+  font-size: 1.1rem;
+}
+.description {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 8%;
+}
+.card span {
+  position: absolute;
+  right: 8%;
+  bottom: 10%;
+  font-size: 1.5em;
+}
+.button {
+  text-align: center;
+  margin: 5% auto 0 auto;
+  font-size: 1.1rem;
+  /* flex-grow: 1; */
+  color: rgb(105, 56, 0);
+  text-decoration: none;
+  border: 1px solid yellow;
+  background-color: rgb(254, 254, 133);
+  padding: 3.5%;
+  border-radius: 40px;
+  width: 10rem;
+}
+.button:active {
+  background-color: rgb(220, 220, 85);
+}
