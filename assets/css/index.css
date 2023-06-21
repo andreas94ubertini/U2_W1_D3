@@ -270,8 +270,10 @@ article img {
     width: 45%;
     height: 90%;
     flex-grow: 1;
+    order: 2;
   }
   .down {
     flex-grow: 1;
+    order: 1;
   }
 }
